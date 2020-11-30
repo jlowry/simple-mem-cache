@@ -1,0 +1,11 @@
+---
+logger_config_file:  "config/log4rs.yaml"
+cache_server:
+  listen_addresses:
+    - 127.0.0.1:8080
+metrics_server:
+  listen_addresses:
+    - 127.0.0.1:8081
+  workers: 1
+cache:
+  key_live_duration: 1800 # 30 minutes

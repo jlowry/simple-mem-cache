@@ -1,0 +1,13 @@
+refresh_rate: 30 seconds
+appenders:
+  stdout:
+    kind: console
+root:
+  level: info
+  appenders:
+    - stdout
+loggers:
+  actix_web:
+    level: info
+  simple_mem_cache::cache:
+    level: debug

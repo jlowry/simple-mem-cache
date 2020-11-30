@@ -1,0 +1,22 @@
+[package]
+name = "simple-mem-cache"
+version = "0.1.0"
+authors = ["James Lowry <jlowry@users.noreply.github.com>"]
+edition = "2018"
+
+[[bin]]
+name = "simple-mem-cache"
+
+[dependencies]
+actix-rt = "1.1"
+actix-web = "3.2"
+actix-web-prom = "0.5"
+chashmap = "2.2"
+config = "0.10"
+crossbeam-channel = "0.5"
+lazy_static = "1.4.0"
+log = "0.4"
+log4rs = "0.13"
+prometheus = "0.10"
+futures = "0.3"
+serde = "1.0"
