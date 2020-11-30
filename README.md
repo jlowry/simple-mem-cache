@@ -8,5 +8,5 @@ A simple in-memory cache with an HTTP interface.
 * Uses actix for high performance.
 * Uses CHashMap as a backing store so only buckets are locked.
 * Configurable logging uses log and log4rs.
-* Configutaration via file and environment.
-* Built metrics server on port http://127.0.0.1:8081/metrics for Prometheus.
+* Configuration via file and environment.
+* Built-in metrics server on port http://127.0.0.1:8081/metrics for Prometheus.
